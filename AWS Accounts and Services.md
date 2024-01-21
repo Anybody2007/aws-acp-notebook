@@ -2,27 +2,27 @@
 
 ## IaaS - Infrastructure as a Service
 
-	AWS - ec2
-	
-	GCP - Compute Engine
+AWS - ec2
 
-	- Mainly provies `Storage`, `Network`, `Compute` and `Memory`. Configure, Secure, Update and Manage is by the client.
-	- The core infrastructure(Hardware) maintained by the provider. Unmanaged virtual servers.
-	- Scaling down or up is super easy.
+GCP - Compute Engine
+
+- Mainly provies `Storage`, `Network`, `Compute` and `Memory`. Configure, Secure, Update and Manage is by the client.
+- The core infrastructure(Hardware) maintained by the provider. Unmanaged virtual servers.
+- Scaling down or up is super easy.
 
 ## PaaS - Platform as a Service
 
-	AWS - Elastic beanstalk
+AWS - Elastic beanstalk
 
-	Lightning - Salesforce
+Lightning - Salesforce
 
-	- User can run their own application, only by maintaing the code. Basically you manage the application.
-	- OS, Scaling, Availability taken care by the provider.
+- User can run their own application, only by maintaing the code. Basically you manage the application.
+- OS, Scaling, Availability taken care by the provider.
 
 ## SaaS - Software as a Service
 
-	- examples - Zoom, Dropbox, O365
-	- Very less control, completly managed by the provider.
+- examples - Zoom, Dropbox, O365
+- Very less control, completly managed by the provider.
 
 
 # Private cloud and Public Cloud
