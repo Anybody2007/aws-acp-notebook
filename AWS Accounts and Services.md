@@ -25,30 +25,30 @@ example - `Zoom`, `Dropbox`, `O365`
 
 ## Private Cloud
 
-    - Dedicated on-prem hardware. 
-    - Customer have full control
-    - Hardware in a colocation facility.
-    - Limited Scalability, due to customer needs to purchase if anything required.
-    - Used exclusivly by a single organization
+- Dedicated on-prem hardware. 
+- Customer have full control
+- Hardware in a colocation facility.
+- Limited Scalability, due to customer needs to purchase if anything required.
+- Used exclusivly by a single organization
 
 ## Public Cloud
 
-    - Delivered via the internet
-    - example - AWS, Azure, GCP, etc.
-    - Shared by many organization.
-    - Scaling is super easy, no hardware purchase.
-    - Flexible pricing
+- Delivered via the internet
+- example - AWS, Azure, GCP, etc.
+- Shared by many organization.
+- Scaling is super easy, no hardware purchase.
+- Flexible pricing
 
 ## Hybrid Cloud
 
-    - Combine private and public cloud
-    - VPN or dedicated connection (e.g. AWS Direct Connect)
+- Combine private and public cloud
+- VPN or dedicated connection (e.g. AWS Direct Connect)
 
 **Use Cases**
 
-    - Scale-out in cloud in case you need an urgent requirment
-    - Migate to the cloud, in case of the downtime.
-    - Disaster recovery and backups
+- Scale-out in cloud in case you need an urgent requirment
+- Migate to the cloud, in case of the downtime.
+- Disaster recovery and backups
 
 # What is AWS?
 
@@ -60,18 +60,40 @@ The car dealer is the AWS. And it provides various services. Like if you need mo
 
 # Regions and Availablity Zone
 
-**Regions**
+## Regions
 
-    - Georaphic Area where you your physical server will be present
-    - All regions may not not provide all the services
-    - Prices are different for the different reasons
-    - Regions are consists of 2 or more Availability zone, for redundency
+- Georaphic Area where you your physical server will be present
+- All regions may not not provide all the services
+- Prices are different for the different reasons
+- Regions are consists of 2 or more Availability zone, for redundency
 
-**Availability Zone**
+## Availability Zone**
 
-    - Datacenter or sert of datacenters within a region
-    - Two or more per region
-    - Every availability zone has different power provider, ISP and many more.
-    - Unlikly to go down two availbility zone at the same time. So we can LB those to get highest uptime.
+- Datacenter or sert of datacenters within a region
+- Two or more per region
+- Every availability zone has different power provider, ISP and many more.
+- Unlikly to go down two availbility zone at the same time. So we can LB those to get highest uptime.
 
 ![Availability Zone](image.png)
+
+## Edge services
+
+- A site that `CloudFront` uses to cache copies of your content for faster delivery to users at any location.
+- This provides low latency to the users.
+
+# AWS Services
+
+## Regions Based
+
+- Your service is only availble in a perticular region.
+- eg: ec2
+
+## Global
+
+- These are global so region doesn't matter here.
+- eg: `IAM`, `Route53`
+
+# Products
+
+https://aws.amazon.com/products/
+
