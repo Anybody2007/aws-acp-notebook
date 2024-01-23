@@ -12,3 +12,5 @@
 - **We can create OU and create accounts inside the OU**
 - **We can assign policies directly to the OU level or account label**
 - **We can also create nested OU's**
+
+![Alt text](aws-organizations.png)
