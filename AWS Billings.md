@@ -12,7 +12,7 @@
 
 ## Setting up an alert when the usage is more than $20
 - Can be setup via `CloudWatch` and only works on `N. Virginia` region.
-- Go to `Billing` section.
+- Left side bar `Alarms` and then `Billing` section.
 - Select `Metric` the `Billing` then `Total Estimated Charge` then select `Currency`
 - Give the `Name` for the `Billing Alert` and select the `Period` of time frame. `Threshold Type` should be `Static`, `Greter/Equal` than `Ammount`. In the `Additional configuration` select the `Treat missing data as ignore`.
 - `Alarm state trigger` set to `In alarm`. `SNS topic` set to `Create new topic`. Provide the `new-name`. Proved the `Email-Address`.

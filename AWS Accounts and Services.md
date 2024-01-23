@@ -74,7 +74,7 @@ The car dealer is the AWS. And it provides various services. Like if you need mo
 - Every availability zone has different power provider, ISP and many more.
 - Unlikly to go down two availbility zone at the same time. So we can LB those to get highest uptime.
 
-![Availability Zone](image.png)
+![Availability Zone](availability-zone.png)
 
 ## Edge services
 
